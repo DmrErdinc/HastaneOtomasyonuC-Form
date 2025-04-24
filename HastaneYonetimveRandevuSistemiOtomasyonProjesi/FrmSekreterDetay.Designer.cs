@@ -307,7 +307,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             this.groupBox4.Size = new System.Drawing.Size(518, 224);
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = " Branslar";
+            this.groupBox4.Text = " Branşlar";
             // 
             // dgwBranslar
             // 

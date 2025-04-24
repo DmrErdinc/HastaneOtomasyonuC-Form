@@ -27,5 +27,10 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             MessageBox.Show("Kaydiniz Gerceklesmistir Sifreniz : " + txtSifre.Text, "Bilgi",MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
+
+        private void FrmHastaKayit_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

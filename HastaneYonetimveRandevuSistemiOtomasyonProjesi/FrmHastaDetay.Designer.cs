@@ -70,7 +70,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             this.groupBox1.Size = new System.Drawing.Size(380, 181);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Kisi Bilgi";
+            this.groupBox1.Text = "Kişi Bilgi";
             // 
             // lblAdSoyad
             // 
@@ -168,7 +168,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(20, 156);
+            this.label7.Location = new System.Drawing.Point(20, 145);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(76, 23);
             this.label7.TabIndex = 3;

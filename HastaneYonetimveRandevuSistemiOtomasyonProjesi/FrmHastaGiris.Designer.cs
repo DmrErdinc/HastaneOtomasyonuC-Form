@@ -43,11 +43,11 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Garamond", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(100, 22);
+            this.label1.Location = new System.Drawing.Point(147, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(299, 30);
+            this.label1.Size = new System.Drawing.Size(224, 30);
             this.label1.TabIndex = 0;
-            this.label1.Text = "HASTA GIRIS PANELI";
+            this.label1.Text = "Hasta Giriş Paneli";
             // 
             // label2
             // 
@@ -125,6 +125,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             this.MaximizeBox = false;
             this.Name = "FrmHastaGiris";
             this.Text = "Hasta Giris Formu";
+            this.Load += new System.EventHandler(this.FrmHastaGiris_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

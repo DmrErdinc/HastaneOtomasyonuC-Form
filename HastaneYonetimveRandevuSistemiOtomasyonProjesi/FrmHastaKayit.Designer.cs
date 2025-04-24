@@ -67,7 +67,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 24);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Sifre :";
+            this.label3.Text = "Şifre :";
             // 
             // label2
             // 
@@ -185,6 +185,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             this.MaximizeBox = false;
             this.Name = "FrmHastaKayit";
             this.Text = "Hasta Kayit Formu";
+            this.Load += new System.EventHandler(this.FrmHastaKayit_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

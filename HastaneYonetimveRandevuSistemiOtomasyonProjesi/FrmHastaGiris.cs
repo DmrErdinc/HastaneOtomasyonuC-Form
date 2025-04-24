@@ -38,5 +38,10 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             FrmHastaKayit frm = new FrmHastaKayit();
             frm.Show();
         }
+
+        private void FrmHastaGiris_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

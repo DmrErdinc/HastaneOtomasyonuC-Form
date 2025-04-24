@@ -4,16 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
 {
+
     class SQLBaglantisi
     {
+        
+
         public SqlConnection baglanti()
         {
-            SqlConnection baglan = new SqlConnection("Data Source=APACHIE;Initial Catalog=HastaneProje;Integrated Security=True");
-            baglan.Open();
-            return baglan;
+            SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=HastaneProje;Integrated Security=True");
+            con.Open();
+            return con;
+          
+            
+
         }
     }
 }

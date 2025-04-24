@@ -109,7 +109,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 19);
             this.label4.TabIndex = 21;
-            this.label4.Text = "Brans :";
+            this.label4.Text = "Branş :";
             // 
             // txtSoyad
             // 
@@ -126,7 +126,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 19);
             this.label5.TabIndex = 24;
-            this.label5.Text = "Sifre :";
+            this.label5.Text = "Şifre :";
             // 
             // txtSifre
             // 
@@ -199,11 +199,11 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Corbel", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(454, 0);
+            this.label6.Location = new System.Drawing.Point(488, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(197, 29);
+            this.label6.Size = new System.Drawing.Size(156, 29);
             this.label6.TabIndex = 27;
-            this.label6.Text = "DOKTOR LISTESI";
+            this.label6.Text = "Doktor Listesi";
             // 
             // FrmDoktorPaneli
             // 
@@ -230,7 +230,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FrmDoktorPaneli";
             this.Text = "Doktor Paneli";

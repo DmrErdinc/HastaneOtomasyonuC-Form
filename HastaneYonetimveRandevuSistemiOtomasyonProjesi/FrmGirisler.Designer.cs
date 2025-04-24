@@ -95,7 +95,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(414, 268);
+            this.label3.Location = new System.Drawing.Point(416, 268);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(81, 23);
             this.label3.TabIndex = 3;
@@ -117,9 +117,9 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             this.label4.Font = new System.Drawing.Font("Juice ITC", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(32, 52);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(217, 40);
+            this.label4.Size = new System.Drawing.Size(177, 40);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Sea Green Hospital";
+            this.label4.Text = "Demir Hospital";
             // 
             // FrmGirisler
             // 
@@ -141,7 +141,9 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.MaximizeBox = false;
             this.Name = "FrmGirisler";
-            this.Text = "Sea Green Hospital Giris";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Demir Hospital Giriş";
+            this.Load += new System.EventHandler(this.FrmGirisler_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

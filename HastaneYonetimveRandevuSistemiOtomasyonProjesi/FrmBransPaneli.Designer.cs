@@ -47,7 +47,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             // 
             this.btnGuncelle.BackColor = System.Drawing.Color.Lime;
             this.btnGuncelle.Location = new System.Drawing.Point(91, 179);
-            this.btnGuncelle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGuncelle.Margin = new System.Windows.Forms.Padding(2);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(184, 32);
             this.btnGuncelle.TabIndex = 42;
@@ -59,7 +59,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             // 
             this.btnSil.BackColor = System.Drawing.Color.Red;
             this.btnSil.Location = new System.Drawing.Point(92, 144);
-            this.btnSil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSil.Margin = new System.Windows.Forms.Padding(2);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(182, 32);
             this.btnSil.TabIndex = 41;
@@ -71,7 +71,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             // 
             this.btnEkle.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnEkle.Location = new System.Drawing.Point(92, 108);
-            this.btnEkle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEkle.Margin = new System.Windows.Forms.Padding(2);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(182, 32);
             this.btnEkle.TabIndex = 40;
@@ -84,7 +84,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(280, 32);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(554, 179);
             this.dataGridView1.TabIndex = 39;
@@ -93,7 +93,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             // txtBransAd
             // 
             this.txtBransAd.Location = new System.Drawing.Point(88, 71);
-            this.txtBransAd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBransAd.Margin = new System.Windows.Forms.Padding(2);
             this.txtBransAd.Name = "txtBransAd";
             this.txtBransAd.Size = new System.Drawing.Size(186, 26);
             this.txtBransAd.TabIndex = 0;
@@ -106,7 +106,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 18);
             this.label3.TabIndex = 34;
-            this.label3.Text = "Brans Adi  :";
+            this.label3.Text = "Branş Adı  :";
             // 
             // label2
             // 
@@ -116,13 +116,13 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 18);
             this.label2.TabIndex = 33;
-            this.label2.Text = "Brans ID :";
+            this.label2.Text = "Branş ID :";
             // 
             // txtBransID
             // 
             this.txtBransID.Enabled = false;
             this.txtBransID.Location = new System.Drawing.Point(88, 33);
-            this.txtBransID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBransID.Margin = new System.Windows.Forms.Padding(2);
             this.txtBransID.Name = "txtBransID";
             this.txtBransID.Size = new System.Drawing.Size(186, 26);
             this.txtBransID.TabIndex = 30;
@@ -131,18 +131,18 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Corbel", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(465, 2);
+            this.label6.Location = new System.Drawing.Point(465, 1);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(178, 29);
+            this.label6.Size = new System.Drawing.Size(142, 29);
             this.label6.TabIndex = 43;
-            this.label6.Text = "BRANS LISTESI";
+            this.label6.Text = "Branş Listesi";
             // 
             // btnListeGuncelle
             // 
             this.btnListeGuncelle.BackColor = System.Drawing.Color.Yellow;
             this.btnListeGuncelle.Location = new System.Drawing.Point(470, 215);
-            this.btnListeGuncelle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnListeGuncelle.Margin = new System.Windows.Forms.Padding(2);
             this.btnListeGuncelle.Name = "btnListeGuncelle";
             this.btnListeGuncelle.Size = new System.Drawing.Size(187, 49);
             this.btnListeGuncelle.TabIndex = 44;
@@ -169,10 +169,10 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             this.Controls.Add(this.txtBransID);
             this.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FrmBransPaneli";
-            this.Text = "Brans Paneli";
+            this.Text = "Branş Paneli";
             this.Load += new System.EventHandler(this.FrmBransPaneli_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

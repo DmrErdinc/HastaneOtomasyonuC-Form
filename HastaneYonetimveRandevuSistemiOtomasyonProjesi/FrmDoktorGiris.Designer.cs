@@ -40,17 +40,17 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             // 
             // btnGirisYap
             // 
-            this.btnGirisYap.Location = new System.Drawing.Point(248, 168);
+            this.btnGirisYap.Location = new System.Drawing.Point(248, 160);
             this.btnGirisYap.Name = "btnGirisYap";
             this.btnGirisYap.Size = new System.Drawing.Size(107, 38);
             this.btnGirisYap.TabIndex = 12;
-            this.btnGirisYap.Text = "Giris Yap";
+            this.btnGirisYap.Text = "Giriş Yap";
             this.btnGirisYap.UseVisualStyleBackColor = true;
             this.btnGirisYap.Click += new System.EventHandler(this.btnGirisYap_Click);
             // 
             // txtSifre
             // 
-            this.txtSifre.Location = new System.Drawing.Point(185, 131);
+            this.txtSifre.Location = new System.Drawing.Point(185, 123);
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(170, 31);
             this.txtSifre.TabIndex = 10;
@@ -59,7 +59,7 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             // 
             // mskTCKimlikNo
             // 
-            this.mskTCKimlikNo.Location = new System.Drawing.Point(185, 86);
+            this.mskTCKimlikNo.Location = new System.Drawing.Point(185, 83);
             this.mskTCKimlikNo.Mask = "00000000000";
             this.mskTCKimlikNo.Name = "mskTCKimlikNo";
             this.mskTCKimlikNo.Size = new System.Drawing.Size(170, 31);
@@ -88,11 +88,11 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Garamond", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(84, 32);
+            this.label1.Location = new System.Drawing.Point(119, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(326, 30);
+            this.label1.Size = new System.Drawing.Size(236, 30);
             this.label1.TabIndex = 8;
-            this.label1.Text = "DOKTOR GIRIS PANELI";
+            this.label1.Text = "Doktor Giriş Paneli";
             // 
             // FrmDoktorGiris
             // 

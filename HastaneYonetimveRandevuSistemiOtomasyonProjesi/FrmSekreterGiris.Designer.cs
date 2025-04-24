@@ -88,11 +88,11 @@ namespace HastaneYonetimveRandevuSistemiOtomasyonProjesi
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Garamond", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(54, 20);
+            this.label1.Location = new System.Drawing.Point(101, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(353, 30);
+            this.label1.Size = new System.Drawing.Size(249, 30);
             this.label1.TabIndex = 8;
-            this.label1.Text = "SEKRETER GIRIS PANELI";
+            this.label1.Text = "Sekreter Giriş Paneli";
             // 
             // FrmSekreterGiris
             // 
