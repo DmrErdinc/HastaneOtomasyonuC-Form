@@ -67,15 +67,15 @@ Projede .mdf ile doğrudan veritabanı bağlantısı ve alternatif olarak SQL sc
 
 ### 🔑 Giriş Paneli
 
-![Giris Ekrani](https://via.placeholder.com/600x300?text=Giris+Ekrani)
+![Giris Ekrani](1)
 
 ### 📋 Hasta Kayıt Formu
 
-![Hasta Kayit](https://via.placeholder.com/600x300?text=Hasta+Kayit+Formu)
+![Hasta Kayit](2)
 
 ### 📅 Randevu Paneli
 
-![Randevu](https://via.placeholder.com/600x300?text=Randevu+Paneli)
+![Randevu](3)
 
 ---
 
